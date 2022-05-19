@@ -18,4 +18,9 @@ public class Car {
         this.series = series;
         this.number = number;
     }
+
+    @Override
+    public String toString() {
+        return "Car: " + mark + " " + series + number;
+    }
 }
